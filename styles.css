@@ -1,0 +1,38 @@
+.weather-app {
+  font-family: "Klee One", cursive;
+  border: 20px;
+  max-width: 900px;
+  border: 1px solid;
+  margin: 20px auto;
+  max-width: 780px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: purple;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+h2 {
+  margin: 20px;
+  padding-left: 10px;
+}
+button {
+  margin: 20px;
+  padding-left: 15px;
+}
+
+li {
+  list-style: none;
+}
+.row {
+  margin: 0 25px;
+  padding: 18px;
+}
+.city-search {
+  padding: 30px;
+}
+.today {
+  color: purple;
+}
