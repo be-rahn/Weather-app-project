@@ -36,3 +36,7 @@ li {
 .today {
   color: purple;
 }
+small {
+  margin: 20px;
+  padding-left: 380px;
+}
