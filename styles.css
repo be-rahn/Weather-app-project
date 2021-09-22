@@ -6,6 +6,7 @@
   margin: 20px auto;
   max-width: 780px;
   border-radius: 10px;
+  background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
 }
 
 h1 {
