@@ -104,12 +104,16 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
-function search(event) {
-  event.preventDefault();
-  let city = document.querySelector("#city-input");
+function search(city) {
   let apiKey = "a1704d0abdfc5546f4a684c7accfe7f8";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayTemperature);
+}
+
+function citySubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
 }
 
 let form = document.querySelector("#city-weather");
