@@ -117,7 +117,7 @@ function citySubmit(event) {
 }
 
 let form = document.querySelector("#city-weather");
-form.addEventListener("submit", search);
+form.addEventListener("submit", citySubmit);
 
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
