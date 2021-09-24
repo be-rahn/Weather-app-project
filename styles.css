@@ -1,3 +1,7 @@
+.container {
+  max-width: 600px;
+}
+
 .weather-app {
   font-family: "Klee One", cursive;
   border: 20px;
@@ -11,18 +15,17 @@
 
 h1 {
   color: purple;
-  margin: 20px;
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 40px;
   font-family: "Freckle Face", cursive;
 }
 
 button {
   margin: 20px;
-  padding-left: 25px;
+  padding-left: 5px;
   position: relative;
-  right: -320px;
-  top: -50px;
+  right: -340px;
+  top: -60px;
   background-color: #9982b6;
   border-radius: 5px;
   border: 1px solid #630363;
@@ -75,7 +78,6 @@ li {
 }
 small {
   margin: 20px;
-  padding-left: 400px;
 }
 .click-button {
   background-color: #2ccc95;
