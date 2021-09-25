@@ -1,5 +1,6 @@
 .container {
   max-width: 600px;
+  min-width: 350px;
 }
 
 .weather-app {
@@ -18,14 +19,13 @@ h1 {
   padding-left: 30px;
   padding-top: 40px;
   font-family: "Freckle Face", cursive;
+  line-height: 40px;
 }
 
 button {
   margin: 20px;
   padding-left: 5px;
-  position: relative;
-  right: -340px;
-  top: -60px;
+  position: sticky;
   background-color: #9982b6;
   border-radius: 5px;
   border: 1px solid #630363;
@@ -84,6 +84,9 @@ li {
 }
 .today {
   color: purple;
+}
+.city-weather {
+  min-width: fit-content;
 }
 small {
   margin: 20px;
