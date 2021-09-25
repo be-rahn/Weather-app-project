@@ -9,7 +9,7 @@
   border: 1px solid;
   margin: 20px auto;
   border-radius: 10px;
-  max-height: 560px;
+  max-height: 800px;
   background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
 }
 
@@ -70,6 +70,15 @@ li {
   margin: 0 25px;
   padding: 18px;
 }
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
 .city-search {
   padding: 30px;
 }
@@ -78,7 +87,4 @@ li {
 }
 small {
   margin: 20px;
-}
-.click-button {
-  background-color: #2ccc95;
 }
